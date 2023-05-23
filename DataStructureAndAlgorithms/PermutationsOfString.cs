@@ -9,7 +9,7 @@ namespace DataStructureAndAlgorithms
     public class PermutationGenerator
     {
         // Iterative method to generate all permutations of a string
-        public static string[] GetPermutationsIterative(string str)
+        /*public static string[] GetPermutationsIterative(string str)
         {
             List<string> permutations = new List<string>();
             permutations.Add(str);
@@ -103,6 +103,6 @@ namespace DataStructureAndAlgorithms
             }
 
             return true;
-        }
+        }*/
     }
 }

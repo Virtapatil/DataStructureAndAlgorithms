@@ -1,4 +1,4 @@
-﻿using System;
+﻿/*using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,7 +8,7 @@ namespace DataStructureAndAlgorithms
 {
     public class BinarySearchWord
     {
-        public static void Main(string[] args)
+        /*
         {
             // Read the list of words from a file
             string[] wordList = BinarySearchWord("wordlist.txt");
@@ -34,4 +34,4 @@ namespace DataStructureAndAlgorithms
             }
         }
     }
-}
+}*/

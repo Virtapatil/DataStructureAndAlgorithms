@@ -31,7 +31,7 @@
                 Console.WriteLine(item);
             }
         }*/
-        public static void Main(string[] args)
+        /*public static void Main(string[] args)
         {
             // Read the list of words from a file
             string[] wordList = ReadWordListFromFile("wordlist.txt");
@@ -97,6 +97,24 @@
             }
 
             return false; // Not found
+        }*/
+        private static void InsertionSortWords(string[] words)
+        {
+            int length = words.Length;
+
+            for (int i = 1; i < length; i++)
+            {
+                string key = words[i];
+                int j = i - 1;
+
+                while (j >= 0 && string.Compare(words[j], key, StringComparison.OrdinalIgnoreCase) > 0)
+                {
+                    words[j + 1] = words[j];
+                    j--;
+                }
+
+                words[j + 1] = key;
+            }
         }
     }
 }
